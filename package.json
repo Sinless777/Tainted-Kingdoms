@@ -1,0 +1,32 @@
+{
+  "name": "tainted-kingdoms",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.11.2",
+  "engines": {
+    "node": ">=24.0.0 <25",
+    "pnpm": ">=12.11.2 <13"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @tainted-kingdoms/game dev",
+    "build": "pnpm --filter @tainted-kingdoms/game build",
+    "typecheck": "pnpm -r typecheck && tsc -p tsconfig.tools.json",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "clean": "node tools/scripts/clean.mjs"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "9.31.0",
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.19.2",
+    "eslint": "10.13.0",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

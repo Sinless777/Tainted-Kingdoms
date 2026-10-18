@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "lib": ["ES2023", "DOM"]
+  },
+  "include": [
+    "*.config.ts",
+    "apps/game/vite.config.ts",
+    "tests/**/*.ts",
+    "packages/**/*.test.ts"
+  ]
+}
