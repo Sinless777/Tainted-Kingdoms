@@ -19,7 +19,7 @@
     "clean": "node tools/scripts/clean.mjs"
   },
   "devDependencies": {
-    "@babylonjs/core": "9.31.0",
+    "@babylonjs/core": "9.32.0",
     "@eslint/js": "10.0.1",
     "@types/node": "24.19.2",
     "eslint": "10.13.0",
