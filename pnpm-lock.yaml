@@ -167,8 +167,8 @@ importers:
   .:
     devDependencies:
       '@babylonjs/core':
-        specifier: 9.31.0
-        version: 9.31.0
+        specifier: 9.32.0
+        version: 9.32.0
       '@eslint/js':
         specifier: 10.0.1
         version: 10.0.1(eslint@10.13.0)
@@ -197,8 +197,8 @@ importers:
   apps/game:
     dependencies:
       '@babylonjs/core':
-        specifier: 9.31.0
-        version: 9.31.0
+        specifier: 9.32.0
+        version: 9.32.0
       '@tainted-kingdoms/engine':
         specifier: workspace:*
         version: link:../../packages/engine
@@ -210,8 +210,8 @@ importers:
   packages/engine:
     dependencies:
       '@babylonjs/core':
-        specifier: 9.31.0
-        version: 9.31.0
+        specifier: 9.32.0
+        version: 9.32.0
       '@tainted-kingdoms/core':
         specifier: workspace:*
         version: link:../core
@@ -226,8 +226,8 @@ importers:
 
 packages:
 
-  '@babylonjs/core@9.31.0':
-    resolution: {integrity: sha512-CqtzNFa6BrL2Wv/AoB3BoMZaAFh+52I+xY8c5a7v+/sh/T5lXJHqLTdvSXMONeLYJUTV6sHJUCT7nwSzMDrSsQ==}
+  '@babylonjs/core@9.32.0':
+    resolution: {integrity: sha512-mHBsyKJuQHbs97Rb/1qxMRg6Ru79+0BjLhGLTa34s6U/fkBCtOh+xKTQDqFpFtPqgBw9TLFcIEvFHy01vnJxwA==}
 
   '@cacheable/memory@2.2.0':
     resolution: {integrity: sha512-CTLKqLItRCEixEAewD3/j9DB3/o96gpTPD4eJ1v+DGOlxZRZncRQkGYqqnAGCscYd6RNeXfGeiuCphsPtqyIfQ==}
@@ -1017,7 +1017,7 @@ packages:
 
 snapshots:
 
-  '@babylonjs/core@9.31.0': {}
+  '@babylonjs/core@9.32.0': {}
 
   '@cacheable/memory@2.2.0':
     dependencies:

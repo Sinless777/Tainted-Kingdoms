@@ -10,7 +10,7 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@babylonjs/core": "9.31.0",
+    "@babylonjs/core": "9.32.0",
     "@tainted-kingdoms/core": "workspace:*"
   }
 }
