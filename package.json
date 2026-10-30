@@ -4,7 +4,7 @@
   "type": "module",
   "packageManager": "pnpm@12.11.2",
   "engines": {
-    "node": ">=24.0.0 <25",
+    "node": ">=24.0.0 <27",
     "pnpm": ">=12.11.2 <13"
   },
   "scripts": {
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@babylonjs/core": "9.31.0",
     "@eslint/js": "10.0.1",
-    "@types/node": "24.19.2",
+    "@types/node": "26.6.6",
     "eslint": "10.13.0",
     "prettier": "3.9.10",
     "typescript": "6.0.3",
